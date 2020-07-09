@@ -47,6 +47,8 @@ class example:
             list2 += [i]
         print(f'{list1} And {list2}')
 
+    def changefunc(self):
+        print('This function is created from github')
 
         
 
@@ -54,4 +56,6 @@ class example:
 obj = example()
 #obj.match(int(input('Enter the size: ')))
 #obj.list()
+obj.changefunc()
+
 
