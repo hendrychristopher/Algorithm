@@ -10,8 +10,7 @@ def play_game():
         handle_turn(current_player)
         check_gameover()
         change_player()
-
-
+        
 def display_board():
     print(board[0], '|', board[1], '|', board[2])
     print(board[3], '|', board[4], '|', board[5])
@@ -45,7 +44,6 @@ def check_gameover():
         print(current_player,' won the game!!')
     elif check_tie():
         still_going = False
-
 
 def check_winner():
     global board
